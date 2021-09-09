@@ -1,5 +1,27 @@
 .dashboardPage{
    position: absolute;
-   left: 40%;
+   left: 38%;
    top: 10%;
+
+   .edit{
+      width: 50%;
+      border-radius: 20px;
+      background-color: black;
+      color: white;
+      border: none;
+
+      &:hover{
+          background-color: #716F81;
+      }
+   }
+}
+
+.info{
+   position: absolute;
+   top: 60%;
+   
+   h1{
+      font-size: 24px;
+   }
+
 }
