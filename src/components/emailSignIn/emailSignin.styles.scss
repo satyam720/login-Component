@@ -1,0 +1,50 @@
+.input-size{
+    width: 34%;
+    border-radius: 20px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    padding: 3%;
+    
+    
+}
+
+label{
+    font-weight: bold;
+}
+
+.check-edit{
+margin-top: 3%;
+ width: 34%;
+ border-radius: 20px;
+ background-color: #553ce4;
+ color: white;
+
+ &:hover{
+     color: white;
+     background-color: #553ce4;
+ }
+}
+
+a{
+    font-weight: bold;
+    color: #553ce4;
+    opacity: 0.9;
+
+    &:hover{
+        color: #553ce4;
+    }
+}
+
+.k-checkbox{
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+    
+    &:checked {
+    background: #553ce4;
+    color: white;
+    border: none;
+    box-shadow: none;
+  }
+}
